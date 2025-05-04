@@ -1,9 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Associação Cultural VivaArte</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
 <body>
+    <header>
+        <div class="logo">VivaArte</div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <section class="hero">
+        <h1>Promovendo Cultura, Arte e Inclusão</h1>
+        <p>Uma associação sem fins lucrativos dedicada ao fortalecimento cultural da comunidade.</p>
+    </section>
 
+    <section id="sobre" class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>
+            A Associação Cultural VivaArte é uma organização sem fins lucrativos que atua desde 2010 promovendo atividades artísticas, oficinas, eventos e projetos sociais para todas as idades.
+        </p>
+    </section>
+
+    <section id="eventos" class="eventos">
+        <h2>Eventos Recentes</h2>
+        <div class="galeria">
+            <div class="evento"><img src="https://via.placeholder.com/300x200" alt="Evento 1"/><p>Oficina de Teatro</p></div>
+            <div class="evento"><img src="https://via.placeholder.com/300x200" alt="Evento 2"/><p>Festival de Música</p></div>
+            <div class="evento"><img src="https://via.placeholder.com/300x200" alt="Evento 3"/><p>Exposição de Arte</p></div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>Fale Conosco</h2>
+        <form id="formContato">
+            <input type="text" placeholder="Seu nome" required/>
+            <input type="email" placeholder="Seu e-mail" required/>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagemEnviada"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 VivaArte - Associação Cultural</p>
+        <div class="redes">
+            <a href="#">Instagram</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">YouTube</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
