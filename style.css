@@ -7,7 +7,7 @@
 
 body {
     background-color: #f8f8f8;
-    color: #333;
+    color: #8f6b09;
 }
 
 header {
@@ -41,8 +41,8 @@ nav a:hover {
 }
 
 .hero {
-    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
-    color: white;
+    /*background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;*/
+    color: #8f6b09;
     text-align: center;
     padding: 100px 20px;
 }
